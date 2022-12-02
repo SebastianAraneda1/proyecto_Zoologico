@@ -29,7 +29,10 @@ public class Leon extends Animal{
       
     @Override
     public String toString() {
-        return "";
+        return "El/la leon/a "+this.nombre+ " tiene "+this.edad + 
+                ", de color "+ this.color+ 
+                " tiene una melena de "+ this.largoMelena+
+                (this.isVegano()? " si":" no")+ " es vegano/a";
     }
     
     

@@ -4,8 +4,8 @@ public abstract class Animal {
     public int id;
     public String nombre;
     private String raza;
-    private String color;
-    private int edad;
+    public String color;
+    public int edad;
     private boolean vegano;
 
     public Animal(int id, String nombre, String raza, String color, int edad, boolean vegano) {

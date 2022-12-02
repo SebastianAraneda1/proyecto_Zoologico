@@ -273,6 +273,8 @@ public class vwJirafa extends javax.swing.JInternalFrame {
             }else{
                 JOptionPane.showMessageDialog(null, "El largo del nombre no es valido");
             }
+        }else{
+            JOptionPane.showMessageDialog(null, "Seleccione una raza o coloque un nombre");
         }
     }//GEN-LAST:event_botonEnviarActionPerformed
     
